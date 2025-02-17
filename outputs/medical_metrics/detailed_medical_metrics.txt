@@ -1,0 +1,41 @@
+肺炎图像分类医学评估指标报告
+==================================================
+
+各类别详细指标
+------------------------------
+
+Covid类别的评估指标:
+sensitivity: 0.9701
+specificity: 0.9985
+ppv: 0.9963
+npv: 0.9881
+dor: 22255.7045
+youdens_index: 0.9687
+auc: 0.9969
+pr_auc: 0.9948
+
+Normal类别的评估指标:
+sensitivity: 0.9966
+specificity: 0.9766
+ppv: 0.9629
+npv: 0.9979
+dor: 12124.2000
+youdens_index: 0.9732
+auc: 0.9977
+pr_auc: 0.9942
+
+Viral Pneumonia类别的评估指标:
+sensitivity: 0.9798
+specificity: 0.9984
+ppv: 0.9968
+npv: 0.9899
+dor: 31077.3846
+youdens_index: 0.9783
+auc: 0.9989
+pr_auc: 0.9986
+
+整体模型评估指标
+------------------------------
+kappa: 0.9749
+mcc: 0.9751
+mean_brier_score: 0.0102
